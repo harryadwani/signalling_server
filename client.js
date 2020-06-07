@@ -1,4 +1,4 @@
-var connection = new WebSocket('ws://localhost:8080'); 
+var connection = new WebSocket('ws://app-4c91c0e6-15fb-48cc-a139-b6bc397d3026.cleverapps.io'); 
 var name = ""; 
  
 var loginInput = document.querySelector('#loginInput'); 
