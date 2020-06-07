@@ -116,9 +116,9 @@ function onLogin(success) {
       }; 
 		
      // myConnection = new RTCPeerConnection(configuration); 
-     myConnection = new RTCPeerConnection(configuration, { 
-      optional: [{RtpDataChannels: true}] 
-   }); 
+     myConnection = new RTCPeerConnection(configuration);//, { 
+      //optional: [{RtpDataChannels: true}] 
+ //  }); 
       myConnection.ondatachannel=handleChannelCallback;
       console.log("RTCPeerConnection object was created"); 
       console.log(myConnection); 
